@@ -1,2 +1,3 @@
-echo 'hello'
-[ -f /etc/.vimrc ] && echo "File exist" || echo "File does not exist"
+cd ~/.vim_runtime
+cat ~/.vim_runtime/vimrcs/basic.vim > ~/.vimrc
+echo "Installed the Basic Vim configuration successfully! Enjoy :-)"
