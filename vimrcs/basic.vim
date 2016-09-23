@@ -56,4 +56,8 @@ set cinkeys-=0#
 set indentkeys-=0#
 set wrap "Wrap lines
 
+" Tab Shortcuts
+map ,t <Esc>:tabnew<CR>
+nnoremap tj  :tabnext<CR>
+nnoremap tk  :tabprev<CR>
 
