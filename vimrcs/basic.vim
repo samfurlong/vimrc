@@ -58,6 +58,7 @@ set wrap "Wrap lines
 
 " Tab Shortcuts
 map ,t <Esc>:tabnew<CR>
+map ,m <Esc>:%s/\r//g<CR>
 nnoremap tj  :tabnext<CR>
 nnoremap tk  :tabprev<CR>
 
