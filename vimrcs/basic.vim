@@ -59,7 +59,7 @@ set indentkeys-=0#
 set wrap "Wrap lines
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Vim Tabs
+" => vim tabs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Open New Tab
 map ,t <Esc>:tabnew<CR>
@@ -67,4 +67,11 @@ map ,t <Esc>:tabnew<CR>
 nnoremap tk  :tabnext<CR>
 " t + j = Prev Tab
 nnoremap tj  :tabprev<CR>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" CTRL-P Finder
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 
