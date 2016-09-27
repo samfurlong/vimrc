@@ -19,6 +19,8 @@ let g:mapleader = ","
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Remove the ^M symbols from files that where edited using Windows
+map ,m <Esc>:%s/\r//g<CR>
 
 " :W sudo saves the file 
 " (useful for handling the permission-denied error)
@@ -56,9 +58,13 @@ set cinkeys-=0#
 set indentkeys-=0#
 set wrap "Wrap lines
 
-" Tab Shortcuts
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim Tabs
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Open New Tab
 map ,t <Esc>:tabnew<CR>
-map ,m <Esc>:%s/\r//g<CR>
-nnoremap tj  :tabnext<CR>
-nnoremap tk  :tabprev<CR>
+" t + k = Next Tab
+nnoremap tk  :tabnext<CR>
+" t + j = Prev Tab
+nnoremap tj  :tabprev<CR>
 
