@@ -1,4 +1,22 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vundle - Plugins go here
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" Install Ctrl-P
+Plugin 'ctrlpvim/ctrlp.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -67,20 +85,3 @@ map ,t <Esc>:tabnew<CR>
 nnoremap tk  :tabnext<CR>
 " t + j = Prev Tab
 nnoremap tj  :tabprev<CR>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Vundle
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-
-" Install Ctrl-P
-Plugin 'ctrlpvim/ctrlp.vim'
-
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
