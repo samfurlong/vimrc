@@ -16,6 +16,9 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mattn/emmet-vim'
 let g:user_emmet_leader_key='<C-Z>'
 
+" Install Elm
+Plugin 'https://github.com/lambdatoast/elm.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -23,6 +26,7 @@ filetype plugin indent on    " required
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+syntax enable
 
 " Set the line numbers to show
 set nu
