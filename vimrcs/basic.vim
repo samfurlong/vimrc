@@ -15,7 +15,12 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Install Emmet
 Plugin 'mattn/emmet-vim'
-let g:user_emmet_leader_key='<C-Z>'
+" How to use
+" type the following in your file. stay in 'insert mode' the entire time
+" html:5
+" While still in 'insert mode' do the following
+" Hold 'Ctrl" and 'y' together for a second. then release and quickly press ','
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
