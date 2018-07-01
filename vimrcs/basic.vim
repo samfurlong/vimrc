@@ -11,13 +11,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Install Ctrl-P
 Plugin 'ctrlpvim/ctrlp.vim'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 
 " Install Emmet
 Plugin 'mattn/emmet-vim'
 let g:user_emmet_leader_key='<C-Z>'
-
-" Install Elm
-Plugin 'https://github.com/lambdatoast/elm.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
