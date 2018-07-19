@@ -21,6 +21,8 @@ Plugin 'mattn/emmet-vim'
 " While still in 'insert mode' do the following
 " Hold 'Ctrl" and 'y' together for a second. then release and quickly press ','
 
+" Vue formatter
+Plugin 'posva/vim-vue'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
