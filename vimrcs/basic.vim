@@ -23,6 +23,7 @@ Plugin 'mattn/emmet-vim'
 
 " Vue formatter
 Plugin 'posva/vim-vue'
+au BufRead,BufNewFile *.vue set ft=vue
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
